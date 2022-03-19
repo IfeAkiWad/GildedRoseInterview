@@ -1,15 +1,28 @@
 {
-  "name": "tddpractice",
+  "name": "gilded-rose-kata",
   "version": "1.0.0",
-  "description": "",
-  "main": "TDD_Practice.js",
+  "description": "Gilded Rose kata in JavaScript with Jest",
   "scripts": {
-    "test": "jest --collectCoverage"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilybache/GildedRose-Refactoring-Kata.git"
+  },
+  "keywords": [
+    "kata",
+    "refactor",
+    "gilded-rose"
+  ],
+  "license": "MIT",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/emilybache/GildedRose-Refactoring-Kata/issues"
+  },
+  "homepage": "https://github.com/emilybache/GildedRose-Refactoring-Kata",
   "devDependencies": {
-    "jest": "^27.5.1"
+    "jest": "^24.9.0"
   }
 }
